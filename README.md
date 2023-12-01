@@ -13,9 +13,9 @@ This package PNPMT includes three different demos of downlink channel reconstruc
 1) The programm file named "pppce_demo.py" gives a demonstration of one sample in channal estimation task. 
 2) The programm file named "pppe_demo.py" gives a demonstration of one sample in antenna extrapolation task.
 3) The programm file named "pppcf_demo.py" gives a demonstration of 100 samples (equals to the number of samples in one block) in CSI feedback task.
-4) The folder "data_npz" contains four datasets which are "pppce_data.npz", "pppae_data.npz", "pppcf_data.npz" used in three experiments respectively, and a random_matrix only for CSI feedback task. 
+4) The folder "data_npz" contains four datasets which are "pppce_data.npz", "pppae_data.npz", "pppcf_data.npz" used in three demos respectively, and "random_matrix.npz" only for the CSI feedback task. 
 5) The folder "model_zoo" contains a single well-trained deep learning model "ffdnet.h5" which is employed to solve the subproblem (17b)  for three tasks. It is a DL-based denoiser and is going to be loaded in three demos.
-6) The folder "utils" contains several functional files including "util_metric.py", "util_module.py", "util_norm.py" and "util_pnp.py".
+6) The folder "utils" contains several functional files which are "util_metric.py", "util_module.py", "util_norm.py" and "util_pnp.py".
 
 ------------------------------------------------------------------------------------------------------
 （B）Envoriment configuration
