@@ -30,9 +30,9 @@ In the task of channel estimation, the number of pilots and the mode of pilots a
 
 Number of pilot: 256
 
-mode: 1 
+Mode of pilots: 1 
 
-model name: fddnet 
+Model name: fddnet 
 
 Number of iterations: 10  
 
@@ -42,9 +42,9 @@ In the task of antenna extrapolation, the number of antennas and the mode of ant
 
 Number of antenna: 16
 
-mode: 1
+Mode of antennas: 1
 
-model name: fddnet
+Model name: fddnet
 
 Number of iterations: 10
 
@@ -52,10 +52,10 @@ Number of iterations: 10
 
 In the task of CSI feedback, the compression ratio and quantification bits are adjustable.
 
-encode_dim: 256
+Encode_dim: 256
 
-quan_bit: 6
+Quan_bit: 6
 
-model_name: fddnet
+Model name: fddnet
 
 Number of iterations: 20
