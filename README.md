@@ -24,24 +24,23 @@ The environment to run these codes is suggested as "python 3.7.11 + tensorflow 2
 -------------------------------------------------------------------------------------------------------
 （C）Parameters setting
 To demonstrate the effectiveness of the multi-task deep PnP prior method, three demos with a set of specific parameters are provided to run. The parameters for each demo are set as follows:
+1)  pppce_demo.py
+In the task of channel estimation, the number of pilots and the mode of pilots are adjustable.
+Number of pilot: 256
+mode: 1
+model name: fddnet
+Number of iterations: 10 
 
-*********  1)  pppce_demo.py
-	In the task of channel estimation, the number of pilots and the mode of pilots are adjustable.
-	Number of pilot: 256
-	mode: 1
-	model name: fddnet
-	Number of iterations: 10 
+2) pppae_demo.py
+In the task of antenna extrapolation, the number of antennas and the mode of antennas are adjustable.
+Number of antenna: 16
+mode: 1
+model name: fddnet
+Number of iterations: 10
 
-*********  2) pppae_demo.py
-	In the task of antenna extrapolation, the number of antennas and the mode of antennas are adjustable.
-	Number of antenna: 16
-	mode: 1
-	model name: fddnet
-	Number of iterations: 10
-
-********* 3) pppcf_demo.py
-	In the task of CSI feedback, the compression ratio and quantification bits are adjustable. 
-	encode_dim: 256
-	quan_bit: 6
-	model_name: fddnet
-	Number of iterations: 20
+3) pppcf_demo.py
+In the task of CSI feedback, the compression ratio and quantification bits are adjustable. 
+encode_dim: 256
+quan_bit: 6
+model_name: fddnet
+Number of iterations: 20
