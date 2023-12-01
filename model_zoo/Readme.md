@@ -1,0 +1,1 @@
+This folder contains a single well-trained deep learning model "ffdnet.h5" which is employed to solve the subproblem (17b)  for three tasks. It is a DL-based denoiser and is going to be loaded in three demos.
