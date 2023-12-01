@@ -1,5 +1,5 @@
 # PNPMT
-Deep Plug-and-Play Prior for Multitasking Channel Reconstruction in Massive MIMO Systems
+Source code of Deep Plug-and-Play Prior for Multitasking Channel Reconstruction in Massive MIMO Systems
 
    CONTENTS：
 （A）Files introduction
