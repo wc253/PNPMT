@@ -8,6 +8,7 @@ Source code of Deep Plug-and-Play Prior for Multitasking Channel Reconstruction 
 
 ---------------------------------------------------------------------------------------------------
 （A） Files introduction
+
 This package PNPMT includes three different demos of downlink channel reconstruction tasks mentioned in the paper, which are channel estimation, antenna extrapolation, and CSI feedback respectively. 
 
 1) The programm file named "pppce_demo.py" gives a demonstration of one sample in channal estimation task. 
@@ -19,10 +20,12 @@ This package PNPMT includes three different demos of downlink channel reconstruc
 
 ------------------------------------------------------------------------------------------------------
 （B）Envoriment configuration
+
 The environment to run these codes is suggested as "python 3.7.11 + tensorflow 2.5.2". Other environments are not precluded but be sure to configure a correct and workable enviroment.
 
 -------------------------------------------------------------------------------------------------------
 （C）Parameters setting
+
 To demonstrate the effectiveness of the multi-task deep PnP prior method, three demos with a set of specific parameters are provided to run. The parameters for each demo are set as follows:
 1)  pppce_demo.py
 
