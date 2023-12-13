@@ -3,7 +3,7 @@ Source code of Deep Plug-and-Play Prior for Multitasking Channel Reconstruction 
 
    CONTENTS：
 （A）Files introduction
-（B）Envoriment configuration
+（B）Environment configuration
 （C）Parameters setting
 
 ---------------------------------------------------------------------------------------------------
@@ -19,9 +19,9 @@ This package PNPMT includes three different demos of downlink channel reconstruc
 6) The folder "utils" contains several functional files which are "util_metric.py", "util_module.py", "util_norm.py" and "util_pnp.py".
 
 ------------------------------------------------------------------------------------------------------
-（B）Envoriment configuration
+（B）Environment configuration
 
-The environment to run these codes is suggested as "python 3.7.11 + tensorflow 2.5.2". Other environments are not precluded but be sure to configure a correct and workable enviroment.
+The environment to run these codes is suggested as "python 3.7.11 + tensorflow 2.5.2". Other environments are not precluded but be sure to configure a correct and workable environment.
 
 -------------------------------------------------------------------------------------------------------
 （C）Parameters setting
