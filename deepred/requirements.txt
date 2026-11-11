@@ -1,0 +1,7 @@
+# Tested on Python 3.10.22; CPU-only. unittest is part of Python.
+tensorflow-cpu==2.10.1
+keras==2.10.0
+numpy==1.23.5
+scipy==1.10.1
+h5py==3.8.0
+protobuf==3.19.6
