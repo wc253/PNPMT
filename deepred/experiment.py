@@ -52,7 +52,8 @@ def main():
     command = [sys.executable, '-c', "import numpy as np, runpy; np.random.seed(2026); runpy.run_path('pppce_demo.py', run_name='__main__')"]
     start = time.perf_counter()
     original = subprocess.run(command, capture_output=True, text=True)
-    (out/'original_pnp.log').write_text(original.stdout+original.stderr)
+    (out/'original_pnp.log').write_text('\n'.join(line.rstrip() for line in
+        (original.stdout+original.stderr).replace('\b', '').splitlines())+'\n')
     if original.returncode:
         raise RuntimeError('Original PnP failed; see original_pnp.log')
     original_seconds = time.perf_counter()-start

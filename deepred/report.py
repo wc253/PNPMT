@@ -116,7 +116,7 @@ kayıtların tablo biçimidir. `arrays.npz` gözlemi, gürültüyü, başlangıc
         records.extend(dict(method=label,**h) for h in run['history'])
     fields=list(dict.fromkeys(k for r in records for k in r))
     with (out/'iterations.csv').open('w',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(records)
+        w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n");w.writeheader();w.writerows(records)
 
 
 if __name__ == '__main__':
